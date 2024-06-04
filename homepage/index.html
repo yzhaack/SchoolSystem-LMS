@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>NASTECH - School of the  Future</title>
+    <link rel="icon" type="image/x-icon" href="../images/landing-page-logo.png">
+    <style>
+    body{
+        color: #fff;
+        }
+        nav, .container-fluid{
+            background-color: #14439b;
+        }
+        .dropdown-menu-custom, .dropdown-toggle-custom{
+            background-color: #14439b;
+            border: none;
+        }
+        .dropdown-toggle-custom:hover,
+        .dropdown-toggle-custom:focus,
+        .dropdown-toggle-custom:active,
+        .dropdown-toggle-custom, .nav-link {
+            background-color: #14439b;
+            border-color: #14439b;
+            color: white;
+        }
+        .dropdown-item{
+            color: #fff;
+        }
+        .navbar-brand img{
+            border-radius:50%;
+        }
+        .carousel-inner {
+            height: calc(100vh - 170px); 
+        }
+        .carousel-item img {
+            height: auto;
+            max-height: calc(100vh - 170px);
+            width: 100%;
+        }
+        .icon{
+            height: 5rem;
+            width: 5rem;
+        }
+        .card {
+            background-color: #14439b;
+            border: none;
+        }
+        .card-title, .card-text {
+            color: #fff;
+            text-align: center;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        .link{
+          text-decoration: none;
+          color: #fff;
+        }
+        .forIcon{
+          width: 2rem;
+          height: 2rem;
+        }
+        .forIcon:hover{
+          transform: scale(1.2);
+        }
+        .forIconC{
+          display: flex;
+          justify-content: center;
+        }
+        .btn-primary {
+            display: block;
+            margin: 0 auto;
+        }
+        .card-img-top{
+            height: 6rem;
+            width: 6rem;
+        }
+        @media (max-width: 576px) {
+        .container {
+        
+        margin-top: -5rem;
+    }
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/landing-page-logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+                </a>
+                <h3 class="mx-1 mb-0">NASTECH - The School of the Future</h3>
+                </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav ms-auto me-8">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admission.html">Admission</a>
+                    </li>
+                </ul>
+            
+                <ul class="navbar-nav ms-auto me-5">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="../login/login-form.html">Login</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/landing-page-img01.jpg" class="d-block w-100 img-fluid" alt="NASTECH image">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/landing-page-img03.jpg" class="d-block w-100 img-fluid" alt="NASTECH image">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/landing-page-img02.jpg" class="d-block w-100 img-fluid" alt="NASTECH image">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="../images/student-icon.png" class="icon" alt="Student Portal Icon">
+                        <h5 class="card-title">Student Portal</h5>
+                        <p class="card-text">Access resources for students.</p>
+                        <a href="../portals/student-portal.html" class="btn btn-primary">Go to Student Portal</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="../images/parents.png" class="icon" alt="Parents Portal Icon">
+                        <h5 class="card-title">Parents Portal</h5>
+                        <p class="card-text">Access resources for parents.</p>
+                        <a href="#" class="btn btn-primary">Go to Parents Portal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                &nbsp
+                <img src="../images/target.png" class="card-img-top mx-auto d-block" alt="...">
+                <div class="card-body text-center"> 
+                    <h5 class="card-title">Mission</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            &nbsp
+            <img src="../images/vision-icon.png" class="card-img-top  mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vision</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+<div class="">
+    <footer class="text-center text-lg-start text-white" style="background-color: #0b337c">
+      <section class="d-flex justify-content-between p-4" style="background-color: #14439b">
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </section>
+      <section class="Contact" id="Contact">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold">NASTECH Dasmarinas</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #14439b; height: 2px"/>
+              <p>NASTECH (National Academy of Science and Technology).</p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #14439b; height: 2px"/>
+              <p>
+                <div class="forIconC">
+                  <a href="https://www.facebook.com/profile.php?id=100010117503999" class="link"><img src="../images/facebook-icon.png" class="forIcon"> Nastech Dasmarinas</a>
+                </div>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #14439b; height: 2px"/>
+              <p><i class="fas fa-home mr-3"></i> Dasmarinas, Cavite, Philippines, 4114</p>
+              <p><i class="fas fa-envelope mr-3"></i> Nastech.edu.ph@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 6397-657-2330</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)"> All rights reserved
+        <a class="text-white" href=""></a>
+      </div>
+    </footer>
+    </div>
+</body>
+</html>
